@@ -22,7 +22,7 @@ const BlogPage: React.FC = () => {
     author: "Dr. Alexandra Chen",
     date: "December 15, 2024",
     readTime: "8 min read",
-    image: "/api/placeholder/800/400",
+    image: "./images/inft.jpeg",
     tags: ["AI", "DeFi", "Future"]
   };
 
@@ -33,7 +33,7 @@ const BlogPage: React.FC = () => {
       author: "Marcus Thompson",
       date: "December 12, 2024",
       readTime: "6 min read",
-      image: "/api/placeholder/400/250",
+      image: "./images/trade.jpeg",
       tags: ["Trading", "AI", "Analysis"]
     },
     {
@@ -42,7 +42,7 @@ const BlogPage: React.FC = () => {
       author: "Sarah Rodriguez",
       date: "December 10, 2024",
       readTime: "5 min read",
-      image: "/api/placeholder/400/250",
+      image: "./images/risk.jpeg",
       tags: ["Risk", "Strategy", "Portfolio"]
     },
     {
@@ -51,7 +51,7 @@ const BlogPage: React.FC = () => {
       author: "David Kim",
       date: "December 8, 2024",
       readTime: "7 min read",
-      image: "/api/placeholder/400/250",
+      image: "./images/analy.jpeg",
       tags: ["Psychology", "Automation", "Trading"]
     },
     {
@@ -60,7 +60,7 @@ const BlogPage: React.FC = () => {
       author: "David Kim",
       date: "December 5, 2024",
       readTime: "9 min read",
-      image: "/api/placeholder/400/250",
+      image: "./images/block.jpeg",
       tags: ["Security", "Blockchain", "Safety"]
     },
     {
@@ -69,7 +69,7 @@ const BlogPage: React.FC = () => {
       author: "Dr. Alexandra Chen",
       date: "December 3, 2024",
       readTime: "6 min read",
-      image: "/api/placeholder/400/250",
+      image: "./images/EL.jpeg",
       tags: ["DeFi", "Yield", "Comparison"]
     },
     {
@@ -78,7 +78,7 @@ const BlogPage: React.FC = () => {
       author: "Sarah Rodriguez",
       date: "December 1, 2024",
       readTime: "10 min read",
-      image: "/api/placeholder/400/250",
+      image: "./images/ML.jpeg",
       tags: ["ML", "Prediction", "Technology"]
     }
   ];
@@ -87,22 +87,22 @@ const BlogPage: React.FC = () => {
     {
       title: "Bitcoin ETF Approval Impact Analysis",
       views: "12.5k",
-      image: "/api/placeholder/200/120"
+      image: "./images/Bitcoin.jpeg"
     },
     {
       title: "Ethereum 2.0 Staking Rewards Guide",
       views: "8.3k",
-      image: "/api/placeholder/200/120"
+      image: "./images/Ethereum.jpeg"
     },
     {
       title: "Top 10 DeFi Protocols to Watch",
       views: "15.2k",
-      image: "/api/placeholder/200/120"
+      image: "./images/ML.jpeg"
     },
     {
       title: "NFT Market Trends Q4 2024",
       views: "6.8k",
-      image: "/api/placeholder/200/120"
+      image: "./images/EL.jpeg"
     }
   ];
 
